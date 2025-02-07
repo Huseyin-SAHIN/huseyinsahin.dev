@@ -1,0 +1,30 @@
+{
+  "name": "huseyinsahin",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2024-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "huseyinsahin.dev",
+      "database_id": "3943269b-220c-4680-90b4-7d55fd6d09ea"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "huseyinsahin-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
